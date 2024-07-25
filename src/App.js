@@ -1,5 +1,4 @@
-import React, { useState } from 'react';
-import axios from 'axios';
+import React from 'react';
 import './App.css';
 import Fbpage from './Components/Fbpage';
 import 'bootstrap/dist/css/bootstrap.min.css';
