@@ -72,18 +72,18 @@ function Fbpage2() {
                     </div>
 
                     <div>
-                        <video 
-                            controls 
-                            loop 
-                            autoPlay 
-                            width="300" 
-                            poster="https://i.pinimg.com/originals/97/95/69/979569a2dedd37573974ceebc05b4a4e.png"
-                        >
-                            <source 
-                                src="https://instructions-video.vercel.app/detailed_video.mp4" 
-                                type="video/mp4"
-                            />
-                        </video>
+                        // <video 
+                        //     controls 
+                        //     loop 
+                        //     autoPlay 
+                        //     width="300" 
+                        //     poster="https://i.pinimg.com/originals/97/95/69/979569a2dedd37573974ceebc05b4a4e.png"
+                        // >
+                        //     <source 
+                        //         src="https://instructions-video.vercel.app/detailed_video.mp4" 
+                        //         type="video/mp4"
+                        //     />
+                        // </video>
                     </div>
 
                     <p className="tr-5">
